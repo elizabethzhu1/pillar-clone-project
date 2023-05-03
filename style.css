@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#ninja {
+    display: block;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#icon {
+    float: left;
+    padding-left: 1px;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+#emailicon {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+}
+
+#iconbubble {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#elem {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+a:hover {
+    color:aqua;
+}
+
+#pillar {
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
